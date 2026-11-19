@@ -44,3 +44,4 @@ jobs:
         with:
           name: DouK-Downloader_${{ runner.os }}_${{ runner.arch }}_${{ env.DATE }}
           path: dist/main/
+          retention-days: 3
